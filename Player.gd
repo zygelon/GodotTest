@@ -6,8 +6,7 @@ var screen_size
 
 
 # Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+# var a = 2# var b = "text"
 
 
 # Called when the node enters the scene tree for the first time.
@@ -54,3 +53,12 @@ func _on_Player_body_entered(body):
 	emit_signal("hit")
 	$CollisionShape2D.set_deferred("disabled", true)
 	
+
+
+#func game_over():
+#	$ScoreTimer.stop() # Replace with function body.
+#	$MobTimer.stop()
+	
+#func new_game():
+#	score=0
+	#
